@@ -1,6 +1,12 @@
 html{
     font-size:10px;
     font-family: 'Open Sans', sans-serif;
+    height:100%;
+    width:100%;
+}
+
+body{
+    margin:0px 0px 0px 0px;
 }
 
 #top-nav-bar{
@@ -10,7 +16,7 @@ html{
     justify-content: space-between;
     align-items: center;
     list-style-type:none;
-    margin: 12px 10px 12px 10px;
+    margin: 12px;
     padding: 0;
     overflow:hidden;
 }
@@ -23,7 +29,6 @@ html{
 #centered-top-right-nav{
     margin:7px 0 0 0;
 }
-
 
 li {
     float: left;
@@ -68,4 +73,18 @@ li a:hover{
 input[type="text"]{
     background-color: white;
     padding:10px;
+}
+
+#bottom-nav-bar{
+    width:100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+    bottom:-10px;
+    position:fixed;
+    padding: 10px;
+    overflow:hidden;
 }
