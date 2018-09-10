@@ -3,16 +3,16 @@ html{
     font-family: 'Open Sans', sans-serif;
     height:100%;
     width:100%;
-    background-color: #D0D0D0;
     padding:0;
+    /*background-color: #D0D0D0;*/
 }
 
 body{
     margin:0px 0px 0px 0px;
-    background-color: #C0D0D0;   
     position:relative;
     width:100%;
     padding:0;
+    /*background-color: #C0D0D0;*/
 }
 
 #top-nav-bar{
@@ -99,8 +99,8 @@ input[type="text"]{
 
 #bottom-nav-bar{
     width:100%;
-    /*background-color: #F0F0F0;*/
-    background-color: pink;
+    background-color: #F0F0F0;
+    /*background-color: pink;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
